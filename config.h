@@ -99,6 +99,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 static char *openurlcmd[] = { "/bin/sh", "-c", "st-urlhandler -o", "externalpipe", NULL };
+static char *copyoutcmd[] = { "/bin/sh", "-c", "st-copyout -o", "externalpipe", NULL };
 
 /* bg opacity */
 float alpha = 0.9;
@@ -217,6 +218,7 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
         { TERMMOD, XK_U, externalpipe, { .v = openurlcmd } },
+        { TERMMOD, XK_O, externalpipe, { .v = copyoutcmd } },
 };
 
 /*
