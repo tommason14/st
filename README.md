@@ -6,13 +6,13 @@ The [st-copyout](st-copyout) and [st-urlhandler](st-urlhandler) scripts are take
 
 The following patches have been applied:
 
--alpha
--anysize
--clipboard
--dynamic-cursor-color
--externalpipe
--font2
--scrollback
--scrollback-mouse
+- alpha
+- anysize
+- clipboard
+- dynamic-cursor-color
+- externalpipe
+- font2
+- scrollback
+- scrollback-mouse
 
 Colours found with [pywal](https://github.com/dylanaraps/pywal) are also loaded by default.
