@@ -15,4 +15,4 @@ The following patches have been applied:
 - scrollback
 - scrollback-mouse
 
-Colours found with [pywal](https://github.com/dylanaraps/pywal) are also loaded by default.
+Colours found with [pywal](https://github.com/dylanaraps/pywal) can be used, but currently loading in predefined colours found in the [colours](colours) subfolder.
