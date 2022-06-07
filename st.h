@@ -75,6 +75,7 @@ typedef union {
 	float f;
 	const void *v;
 	const char *s;
+        char* ca;
 } Arg;
 
 void die(const char *, ...);
@@ -98,6 +99,7 @@ int ttynew(const char *, char *, const char *, char **);
 size_t ttyread(void);
 void ttyresize(int, int);
 void ttywrite(const char *, size_t, int);
+void kwrite(const Arg *);
 
 void resettitle(void);
 

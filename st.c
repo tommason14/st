@@ -716,6 +716,14 @@ execsh(char *cmd, char **args)
 	_exit(1);
 }
 
+void 
+kwrite(const Arg* a)
+{
+        char buf[strlen(a->ca) + 1];
+        snprintf(buf, sizeof buf, "%s", a->ca);
+        ttywrite(buf, sizeof buf, 0);
+}
+
 void
 sigchld(int a)
 {
