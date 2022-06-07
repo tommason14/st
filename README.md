@@ -14,5 +14,7 @@ The following patches have been applied:
 - font2
 - scrollback
 - scrollback-mouse
+- xresources 
 
-Colours found with [pywal](https://github.com/dylanaraps/pywal) can be used, but currently loading in predefined colours found in the [colours](colours) subfolder.
+The iceberg colourscheme is used by default, otherwise values from
+`~/.Xresources` are used if defined.
