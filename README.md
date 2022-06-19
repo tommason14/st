@@ -16,5 +16,4 @@ The following patches have been applied:
 - scrollback-mouse
 - xresources 
 
-The iceberg colourscheme is used by default, otherwise values from
-`~/.Xresources` are used if defined.
+Colours defined in `~/.Xresources` are used if available, otherwise the [iceberg](https://github.com/cocopon/iceberg.vim) colourscheme is used.
