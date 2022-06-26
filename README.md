@@ -15,5 +15,7 @@ The following patches have been applied:
 - scrollback
 - scrollback-mouse
 - xresources 
+- desktopentry
+- netwmicon
 
 Colours defined in `~/.Xresources` are used if available, otherwise the [iceberg](https://github.com/cocopon/iceberg.vim) colourscheme is used.
