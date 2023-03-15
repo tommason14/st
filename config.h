@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font:size=12:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font:size=10:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"emoji:size=14:antialias=true:autohint=true",
+	"emoji:size=12:antialias=true:autohint=true",
 };
 
 static int borderpx = 15;
